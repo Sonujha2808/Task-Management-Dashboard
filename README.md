@@ -48,6 +48,7 @@ This will start the development server and you can view the dashboard by navigat
 Folder Structure
 php
 Copy code
+
 task-management-dashboard/
 │
 ├── public/                   # Public assets (index.html, icons, etc.)
