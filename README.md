@@ -45,22 +45,7 @@ Copy code
 npm start
 This will start the development server and you can view the dashboard by navigating to http://localhost:3000 in your browser.
 
-Folder Structure
-php
-Copy code
 
-task-management-dashboard/
-│
-├── public/                   # Public assets (index.html, icons, etc.)
-├── src/                      # Source code
-│   ├── components/           # Reusable UI components (e.g., Header, TaskCard)
-│   ├── pages/                # React components representing pages (Dashboard, TaskDetails)
-│   ├── redux/                # Redux-related files (store, reducers, actions)
-│   ├── styles/               # Styles (CSS/SCSS)
-│   ├── App.js                # Main application component
-│   ├── index.js              # Entry point for React app
-│
-└── package.json              # Project dependencies and scripts
 How It Works
 Task Management
 Add a Task: In the dashboard, users can input the task's title, description, and due date. When the "Add Task" button is clicked, the task is added to the Redux store and stored in the browser’s localStorage.
