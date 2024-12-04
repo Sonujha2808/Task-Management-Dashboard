@@ -86,7 +86,8 @@ Dashboard
 ![localhost_3000_tasks](https://github.com/user-attachments/assets/2e583937-fb0e-4583-a66c-58a91a57058a)
 
 Add Task Modal
-![localhost_3000_tasks (1)](https://github.com/user-attachments/assets/b3c62acd-0cae-4fde-bc3c-140a6d1904fe)
+![image](https://github.com/user-attachments/assets/fa1b3d82-5334-43eb-b7b5-51aa30181f39)
+
 
 Usage
 Once the application is up and running, users can navigate to the Dashboard to manage tasks.
