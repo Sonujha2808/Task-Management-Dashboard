@@ -1,0 +1,76 @@
+/* src/styles/Analytics.css */
+.analytics {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #f4f7fc; /* Light background for better contrast */
+  }
+  
+  .analytics-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  
+  .analytics-card {
+    width: 30%;
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .analytics-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  .analytics-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333; /* Dark color for title text */
+  }
+  
+  .analytics-card p {
+    font-size: 16px;
+    color: #555; /* Lighter color for content */
+  }
+  
+  .charts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Increased gap between charts */
+  }
+  
+  .chart {
+    background-color: #ffffff; /* White background for chart containers */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .chart:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  /* Add a responsive design */
+  @media (max-width: 768px) {
+    .analytics-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .analytics-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .charts {
+      flex-direction: column;
+    }
+  }
+  

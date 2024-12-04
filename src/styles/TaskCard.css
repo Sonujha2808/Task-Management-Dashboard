@@ -1,0 +1,25 @@
+/* src/components/TaskCard.css */
+.task-card {
+    background: #2a2a40;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    color: white;
+  }
+  
+  .task-card.completed {
+    background: #4caf50;
+  }
+  
+  .task-card h3 {
+    margin: 0;
+  }
+  
+  .task-card p {
+    font-size: 14px;
+  }
+  
+  .task-card button {
+    margin-top: 10px;
+  }
+  

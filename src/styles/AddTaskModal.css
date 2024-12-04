@@ -1,0 +1,107 @@
+/* Styling for the Modal Overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background for the overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Make sure the modal is on top of other content */
+}
+
+/* Modal Content Styling */
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for the modal */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Header Styling */
+.modal-content h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Input and Textarea Styling */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+/* Focus State for Input Fields */
+input:focus,
+textarea:focus {
+  border-color: #4caf50; /* Green border when focused */
+  outline: none;
+}
+
+/* Textarea Customizations */
+textarea {
+  resize: vertical; /* Allow resizing vertically */
+  min-height: 120px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50; /* Green background */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Cancel Button Customizations */
+button.cancel {
+  background-color: #f44336; /* Red background for cancel */
+}
+
+button.cancel:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .modal-content {
+    padding: 20px;
+    width: 90%; /* Make the modal take up more space on smaller screens */
+  }
+
+  .modal-content h2 {
+    font-size: 20px; /* Smaller font size for the heading */
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 14px; /* Adjust input and button font size */
+  }
+}

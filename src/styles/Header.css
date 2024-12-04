@@ -1,0 +1,16 @@
+/* src/styles/Header.css */
+.header {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background-color: #2a2a40; /* Dark background */
+  color: white; /* White text color */
+  padding: 15px 20px;
+  height: 60px; /* Adjust the height of the header */
+  border-bottom: 1px solid #343a50; /* Border at the bottom of the header */
+}
+
+.header h1 {
+  font-size: 24px; /* Adjust the font size for the heading */
+  margin: 0; /* Remove default margin */
+}
